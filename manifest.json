@@ -4,7 +4,7 @@
   "name": "feranteBlocker",
   "content_scripts": [
     {
-      "matches": ["myshows.me"],
+      "matches": ["https://myshows.me/*"],
       "js": ["main.js"]
     }
   ]
