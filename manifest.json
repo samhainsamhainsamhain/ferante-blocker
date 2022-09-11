@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "feranteBlocker",
+  "content_scripts": [
+    {
+      "matches": ["myshows.me"],
+      "js": ["main.js"]
+    }
+  ]
+}
